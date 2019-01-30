@@ -24,3 +24,22 @@ specs:
       json_data:
         - path: "$.data[2].first_name"
           value: "Emma"
+   
+    # second get request
+  - name: "REQ | RES Service API - User details"
+    
+    request:
+      path: "/users/1"
+      method: "get"
+
+    response:
+      status_code: 200
+
+      headers:
+        - name: "content-type"
+          value: application/json; charset=utf-8
+          
+      json_data:
+        - path: "$.data.first_name"
+          value: "George"
+          

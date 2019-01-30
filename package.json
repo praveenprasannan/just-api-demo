@@ -1,0 +1,11 @@
+{
+  "name": "just-api-demo",
+  "version": "1.0.0",
+  "description": "API testing using Just-API",
+  "repository": "https://github.com/praveenprasannan/just-api-demo.git",
+  "author": "Praveen Prasannan",
+  "license": "MIT",
+  "devDependencies": {
+    "just-api": "^1.2.4"
+  }
+}

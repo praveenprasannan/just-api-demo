@@ -6,4 +6,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # Dependency directories
-node_modules/
+node_modules
+
+#others
+.DS_Store
+
+#ide
+.vscode
+.idea
